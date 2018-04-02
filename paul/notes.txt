@@ -24,6 +24,12 @@
 	- do not uncapitolize
 	- perhaps replace multiple punctuation marks (like !?) with a marker to indicate repeated.  So that !! and !!! match
 	- Check for numbers replacing letters and fix
+	- Remove all stop words, look at the resulting highest frequency words
+	- think of other words that may not have come up but could indicate hate, find a corpus of hate words
+
+BAYES
+- do we need smoothing if we have a large corpus of data - suggested that if X or Y is large we don't need it
+- figure out how to save a classifier once it is created
 
 - Classifiers:
 	- Regression
